@@ -5,8 +5,7 @@ ROOT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
 
 # --- Edit these defaults for your setup ---
 IMAGE="${IMAGE:-ghcr.io/ggml-org/llama.cpp:full-cuda13}"
-# MODEL: container path to your GGUF file (mounted via --models-dir)
-MODEL="${MODEL:-/models/your-model.gguf}"
+MODEL="${MODEL:-/models/your-model.gguf}"   # MODEL: container path to your GGUF file (mounted via --models-dir)
 MODELS_DIR="${MODELS_DIR:-"$ROOT_DIR/models"}"
 # ------------------------------------------
 

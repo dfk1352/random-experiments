@@ -21,7 +21,7 @@ Experiment Setup
 
 *Steps to reproduce:*
 1. Pull the models and the images.
-2. Run the two benchmark scripts: [1](./scripts/bench-ngl.sh) [2](./scripts/probe-ngl.sh`). Set paths and parameters based on your goals. See the [description](./scripts/SCRIPTS_USAGE.md) for more info.
+2. Run the two benchmark scripts: [1](./scripts/bench-ngl.sh) [2](./scripts/probe-ngl.sh). Set paths and parameters based on your goals. See the [description](./scripts/SCRIPTS_USAGE.md) for more info.
 
 The probing script requires human input (ctrl+c) after each test, mainly for the sake of watching over the run in case it doesn't work out the way I wanted it to be.
 
